@@ -1,0 +1,56 @@
+ /*.campos {
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+body{
+    background-image: url(Dede.jpg);
+    background-size: cover;
+}
+
+
+/* .imagem{
+    background-image: url(Dede.jpg);
+
+} */
+#mytxt {
+    width: 400px;
+    height: 40px; 
+    
+    /*justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+#btm {
+    display: block;
+    margin-top: 40%;
+    border-radius: 9px;
+    color: rgb(248, 246, 250);
+    background-color: rgb(49, 38, 212);
+    text-shadow: 30px;
+    font-family: monospace;
+    margin-left: 44%;
+}
+
+.not {
+    background-color:#6a7996;
+    width:100%;
+    max-width: 295px;
+   
+    max-height:30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 6px;
+    padding-right:1px;
+    font-family: arial;
+    line-height: 30px;
+    font-weight:700;
+    margin-left: 44%;
+    margin-top: 20%;
+}
