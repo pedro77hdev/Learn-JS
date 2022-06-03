@@ -8,7 +8,7 @@ var chronomter
 function start() {
 
     chronomter = setInterval(() => {
-
+ 
         timer()
 
     }, time)
