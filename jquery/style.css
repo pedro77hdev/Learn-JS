@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.meusbotao{
+    display: flex;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 27%;
+    right: 27%;
+    font-size: 30px;
+    color: black;
+    
+   /*  text-shadow: 0px 0px 5px black; */
+    cursor: pointer;
+  }
+
+  #calma{
+      text-align: justify;
+    
+  }
+
+  
