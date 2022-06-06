@@ -31,4 +31,8 @@ $(document).ready(()=>{
         var tome = new Audio("sons/tome.mp3")
         tome.play()
     })
+    $("#cavalo").click(()=>{
+        var cavalo = new Audio
+        cavalo.play()
+    })
 })
