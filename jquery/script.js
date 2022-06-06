@@ -19,4 +19,16 @@ $(document).ready(()=>{
         var calma = new Audio("sons/olha.mp3")
         calma.play()
     })
+    $("#danca").click(()=>{
+        var gatinho = new Audio("sons/gatinhodanca.mp3")
+        gatinho.play()
+    })
+    $("#ui").click(()=>{
+        var ui = new Audio("sons/ui.mp3")
+        ui.play()
+    })
+    $("#tome").click(()=>{
+        var tome = new Audio("sons/tome.mp3")
+        tome.play()
+    })
 })
