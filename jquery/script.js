@@ -32,7 +32,11 @@ $(document).ready(()=>{
         tome.play()
     })
     $("#cavalo").click(()=>{
-        var cavalo = new Audio
+        var cavalo = new Audio("sons/cavalo.mp3")
         cavalo.play()
+    })
+    $("#papelao").click(()=>{
+        var papelao = new Audio("sons/papelao.mp3")
+        papelao.play()
     })
 })
